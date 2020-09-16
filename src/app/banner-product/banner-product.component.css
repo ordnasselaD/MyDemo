@@ -1,0 +1,87 @@
+
+/*BANNER 1*/
+div.at-container {
+    position: absolute;
+    top: 15vw;
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+  }
+  #podium{
+      width: 40vw;
+      margin-top: auto;
+      margin-bottom: auto;
+  }
+  #left{
+      width: 25vw;
+  }
+  #right{
+      width: 25vw;
+  }
+  .at-item1{
+    animation-name: tilt-in-right;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+  }
+  @keyframes tilt-in-right {
+    0%{
+      -webkit-transform: rotateX(-30deg) translateX(300px) skewX(30deg);
+      transform: rotateX(-30deg) translateX(-300px) skewX(30deg);
+      opacity: 0;
+    }
+    100%{
+      -webkit-transform: rotateX(0deg) translateX(0) skewX(0deg);
+      transform: rotateX(0deg) translateX(0) skewX(0deg);
+      opacity: 1;
+    }
+  }
+  /*BANNER 2*/
+  .at-item2 {
+    animation-name: text-focus-in;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+  }
+  @keyframes text-focus-in {
+    0%{
+      filter: blur(12px);
+      opacity: 0;
+    }
+    100%{
+      filter: blur(0);
+      opacity: 1;
+    }
+  }
+  /*BANNER 3*/
+  .at-item3 {
+    animation-name: tilt-in-left;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+  }
+  @keyframes tilt-in-left {
+    0%{
+      -webkit-transform: rotateX(-30deg) translateX(300px) skewX(30deg);
+      transform: rotateX(-30deg) translateX(300px) skewX(30deg);
+      opacity: 0;
+    }
+    100%{
+      -webkit-transform: rotateX(0deg) translateX(0) skewX(0deg);
+      transform: rotateX(0deg) translateX(0) skewX(0deg);
+      opacity: 1;
+    }
+  }
+  

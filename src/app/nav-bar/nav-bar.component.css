@@ -1,0 +1,48 @@
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #517c56;
+}
+
+.menu {
+  float: left;
+  font-size: 4vw;
+  margin: 2%;
+  background-color: #A6D3A0;
+  position: relative;
+  bottom: 1vw;
+  border-radius: 0 0 15px 15px;
+
+}
+
+.item {
+  display: none;
+  font-size: 3vw;
+  text-align: center;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+.item a{
+  color:  #1b5c13;
+}
+.menu a:hover{
+  color: #A6D3A0;
+  background-color: #627258;
+  transition: 0.5s;
+}
+.menu:hover ul {
+  display: block;
+}
+
+.dropdown {
+  padding-left: 23%;
+  padding-right: 20%;
+  background-color: #A6D3A0;
+  height: 7vw;
+}

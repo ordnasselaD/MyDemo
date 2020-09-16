@@ -1,0 +1,18 @@
+{
+  "targets": {
+    "ecommercedemo-edd39": {
+      "hosting": {
+        "Demo": [
+          "ecommercedemo-edd39"
+        ]
+      }
+    },
+    "ecommerce-471f9": {
+      "hosting": {
+        "Demo": [
+          "ecommerce-471f9"
+        ]
+      }
+    }
+  }
+}
